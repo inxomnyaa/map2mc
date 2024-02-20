@@ -4,6 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <repositories>
+	<repository>
+		<id>jitpack.io</id>
+		<url>https://jitpack.io</url>
+	</repository>
+</repositories>
     <groupId>eu.jgdi.mc</groupId>
     <artifactId>map2mc</artifactId>
     <version>0.9.0-SNAPSHOT</version>
@@ -54,13 +60,10 @@
             <artifactId>commons-csv</artifactId>
             <version>1.7</version>
         </dependency>
-        <!-- Local JARs: These/This cannot be found in standard maven repositories -->
         <dependency>
-            <groupId>net.querz</groupId>
-            <artifactId>nbt</artifactId>
-            <version>4.1</version>
-            <scope>system</scope>
-            <systemPath>${basedir}/lib/nbt-4.1.jar</systemPath>
-        </dependency>
+	<groupId>com.github.Querz</groupId>
+	<artifactId>NBT</artifactId>
+	<version>6.1</version>
+</dependency>
     </dependencies>
 </project>
