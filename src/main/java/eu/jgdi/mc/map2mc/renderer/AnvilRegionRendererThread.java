@@ -8,10 +8,10 @@ import java.util.List;
 import java.util.Set;
 import java.util.concurrent.CountDownLatch;
 
-import net.querz.nbt.CompoundTag;
-import net.querz.nbt.mca.Chunk;
-import net.querz.nbt.mca.MCAFile;
-import net.querz.nbt.mca.MCAUtil;
+import com.github.Querz.CompoundTag;
+import com.github.Querz.mca.Chunk;
+import com.github.Querz.mca.MCAFile;
+import com.github.Querz.mca.MCAUtil;
 
 import eu.jgdi.mc.map2mc.config.Constants;
 import eu.jgdi.mc.map2mc.config.WorldConfig;
