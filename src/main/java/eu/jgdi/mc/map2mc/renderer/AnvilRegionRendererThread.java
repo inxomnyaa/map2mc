@@ -9,9 +9,9 @@ import java.util.Set;
 import java.util.concurrent.CountDownLatch;
 
 import net.querz.nbt.tag.CompoundTag;
-import net.querz.nbt.mca.Chunk;
-import net.querz.nbt.mca.MCAFile;
-import net.querz.nbt.mca.MCAUtil;
+import net.querz.mca.Chunk;
+import net.querz.mca.MCAFile;
+import net.querz.mca.MCAUtil;
 
 import eu.jgdi.mc.map2mc.config.Constants;
 import eu.jgdi.mc.map2mc.config.WorldConfig;
