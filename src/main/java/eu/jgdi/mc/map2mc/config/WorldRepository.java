@@ -9,7 +9,7 @@ import java.util.Scanner;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import com.github.Querz.CompoundTag;
+import net.querz.nbt.tag.CompoundTag;
 
 import eu.jgdi.mc.map2mc.config.csv.BlockStack;
 import eu.jgdi.mc.map2mc.config.csv.CompoundDef;

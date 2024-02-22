@@ -1,6 +1,6 @@
 package eu.jgdi.mc.map2mc.config.csv;
 
-import com.github.Querz.CompoundTag;
+import net.querz.nbt.tag.CompoundTag;
 
 public class CompoundDef {
 
