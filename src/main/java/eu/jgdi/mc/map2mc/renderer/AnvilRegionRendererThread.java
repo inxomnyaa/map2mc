@@ -119,7 +119,7 @@ public class AnvilRegionRendererThread extends Thread {
 
         String nameFromRegionLocation = MCAUtil.createNameFromRegionLocation(regionX, regionZ);
         Path filePath = Paths.get(config.getOutputRegionDirectory().getPath(), nameFromRegionLocation);
-        MCAUtil.writeMCAFile(region, filePath.toFile(), true);
+        MCAUtil.write(region, filePath.toFile(), true);
 
         logger.info(
                 "  Region file {0} (''{1}'') processed: {2} chunks written to file {3}",
