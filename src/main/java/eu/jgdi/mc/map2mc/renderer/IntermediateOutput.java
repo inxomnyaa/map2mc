@@ -1,15 +1,5 @@
 package eu.jgdi.mc.map2mc.renderer;
 
-import java.io.File;
-import java.io.IOException;
-import java.io.RandomAccessFile;
-import java.nio.file.Paths;
-import java.text.MessageFormat;
-import java.util.List;
-import java.util.regex.Pattern;
-
-import org.apache.commons.io.FileUtils;
-
 import eu.jgdi.mc.map2mc.config.Constants;
 import eu.jgdi.mc.map2mc.model.minecraft.coordinates.ChunkLocation;
 import eu.jgdi.mc.map2mc.model.minecraft.coordinates.MinecraftLocation;
@@ -18,6 +8,15 @@ import eu.jgdi.mc.map2mc.model.minecraft.coordinates.referenceframe.ReferenceFra
 import eu.jgdi.mc.map2mc.model.raw.ChunkInfoMap;
 import eu.jgdi.mc.map2mc.model.raw.Tuple;
 import eu.jgdi.mc.map2mc.parser.ChunkBuilder;
+import org.apache.commons.io.FileUtils;
+
+import java.io.File;
+import java.io.IOException;
+import java.io.RandomAccessFile;
+import java.nio.file.Paths;
+import java.text.MessageFormat;
+import java.util.List;
+import java.util.regex.Pattern;
 
 /**
  * Writes the height of each block at surface position (x, z)

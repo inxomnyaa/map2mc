@@ -1,11 +1,11 @@
 package eu.jgdi.mc.map2mc.model.raw;
 
-import java.util.Arrays;
-
 import eu.jgdi.mc.map2mc.config.Constants;
 import eu.jgdi.mc.map2mc.model.minecraft.coordinates.ChunkLocation;
 import eu.jgdi.mc.map2mc.model.minecraft.coordinates.RegionLocation;
 import eu.jgdi.mc.map2mc.model.minecraft.coordinates.referenceframe.ReferenceFrame;
+
+import java.util.Arrays;
 
 public class RegionInfoMap {
 

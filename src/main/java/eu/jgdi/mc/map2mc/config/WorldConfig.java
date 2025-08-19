@@ -1,5 +1,13 @@
 package eu.jgdi.mc.map2mc.config;
 
+import eu.jgdi.mc.map2mc.config.csv.BiomesCsvContent;
+import eu.jgdi.mc.map2mc.config.csv.SurfaceCsvContent;
+import eu.jgdi.mc.map2mc.config.csv.TerrainCsvContent;
+import eu.jgdi.mc.map2mc.model.minecraft.Block;
+import eu.jgdi.mc.map2mc.utils.Logger;
+import eu.jgdi.mc.map2mc.utils.SortedProperties;
+import org.apache.commons.io.FileUtils;
+
 import java.awt.*;
 import java.io.File;
 import java.io.FileInputStream;
@@ -9,15 +17,6 @@ import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
-
-import org.apache.commons.io.FileUtils;
-
-import eu.jgdi.mc.map2mc.config.csv.BiomesCsvContent;
-import eu.jgdi.mc.map2mc.config.csv.SurfaceCsvContent;
-import eu.jgdi.mc.map2mc.config.csv.TerrainCsvContent;
-import eu.jgdi.mc.map2mc.model.minecraft.Block;
-import eu.jgdi.mc.map2mc.utils.Logger;
-import eu.jgdi.mc.map2mc.utils.SortedProperties;
 
 public class WorldConfig {
 

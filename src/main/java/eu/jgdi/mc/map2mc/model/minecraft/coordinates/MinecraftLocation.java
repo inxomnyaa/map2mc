@@ -1,14 +1,14 @@
 package eu.jgdi.mc.map2mc.model.minecraft.coordinates;
 
-import java.util.Map;
-import java.util.Optional;
-import java.util.function.Function;
-
 import eu.jgdi.mc.map2mc.model.minecraft.coordinates.referenceframe.FrameTransition;
 import eu.jgdi.mc.map2mc.model.minecraft.coordinates.referenceframe.ReferenceFrame;
 import eu.jgdi.mc.map2mc.model.minecraft.coordinates.referenceframe.ReferenceFrameException;
 import eu.jgdi.mc.map2mc.model.minecraft.coordinates.referenceframe.ReferenceFrameShifter;
 import eu.jgdi.mc.map2mc.model.raw.Tuple;
+
+import java.util.Map;
+import java.util.Optional;
+import java.util.function.Function;
 
 /**
  * Describes a location in Minecraft in relation to the whole world (default),

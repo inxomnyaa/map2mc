@@ -1,14 +1,14 @@
 package eu.jgdi.mc.map2mc.parser;
 
-import java.util.HashMap;
-import java.util.Map;
-
 import eu.jgdi.mc.map2mc.config.Constants;
 import eu.jgdi.mc.map2mc.model.minecraft.coordinates.BlockLocation;
 import eu.jgdi.mc.map2mc.model.minecraft.coordinates.ChunkLocation;
 import eu.jgdi.mc.map2mc.model.minecraft.coordinates.referenceframe.ReferenceFrame;
 import eu.jgdi.mc.map2mc.model.raw.ChunkInfoMap;
 import eu.jgdi.mc.map2mc.model.raw.WorldRaster;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class ChunkBuilder {
 

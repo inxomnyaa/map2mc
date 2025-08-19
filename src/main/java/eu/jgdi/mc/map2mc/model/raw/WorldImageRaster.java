@@ -1,9 +1,9 @@
 package eu.jgdi.mc.map2mc.model.raw;
 
+import eu.jgdi.mc.map2mc.utils.Logger;
+
 import java.awt.image.BufferedImage;
 import java.awt.image.Raster;
-
-import eu.jgdi.mc.map2mc.utils.Logger;
 
 public class WorldImageRaster extends WorldRaster {
 

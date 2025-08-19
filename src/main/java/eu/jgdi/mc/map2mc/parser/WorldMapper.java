@@ -1,11 +1,5 @@
 package eu.jgdi.mc.map2mc.parser;
 
-import java.awt.*;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.stream.Collectors;
-
 import eu.jgdi.mc.map2mc.config.WorldRepository;
 import eu.jgdi.mc.map2mc.model.minecraft.coordinates.BlockLocation;
 import eu.jgdi.mc.map2mc.model.minecraft.coordinates.ChunkLocation;
@@ -15,6 +9,12 @@ import eu.jgdi.mc.map2mc.model.raw.Tuple;
 import eu.jgdi.mc.map2mc.model.raw.WorldRaster;
 import eu.jgdi.mc.map2mc.model.raw.WorldSection;
 import eu.jgdi.mc.map2mc.utils.Logger;
+
+import java.awt.*;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 public class WorldMapper {
 

@@ -1,12 +1,12 @@
 package eu.jgdi.mc.map2mc.model.minecraft.coordinates;
 
-import java.util.Map;
-
 import eu.jgdi.mc.map2mc.config.Constants;
 import eu.jgdi.mc.map2mc.model.minecraft.coordinates.referenceframe.FrameTransition;
 import eu.jgdi.mc.map2mc.model.minecraft.coordinates.referenceframe.ReferenceFrame;
 import eu.jgdi.mc.map2mc.model.minecraft.coordinates.referenceframe.ReferenceFrameShifter;
 import eu.jgdi.mc.map2mc.model.raw.Tuple;
+
+import java.util.Map;
 
 public class ChunkLocation extends MinecraftLocation {
 

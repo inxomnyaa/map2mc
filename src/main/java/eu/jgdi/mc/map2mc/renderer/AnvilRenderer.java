@@ -1,22 +1,18 @@
 package eu.jgdi.mc.map2mc.renderer;
 
+import eu.jgdi.mc.map2mc.config.WorldConfig;
+import eu.jgdi.mc.map2mc.config.WorldRepository;
+import eu.jgdi.mc.map2mc.model.minecraft.coordinates.RegionLocation;
+import eu.jgdi.mc.map2mc.model.raw.RegionInfoMap;
+
 import java.io.File;
 import java.nio.file.Files;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
-
-import eu.jgdi.mc.map2mc.config.WorldConfig;
-import eu.jgdi.mc.map2mc.config.WorldRepository;
-import eu.jgdi.mc.map2mc.model.minecraft.coordinates.RegionLocation;
-import eu.jgdi.mc.map2mc.model.raw.RegionInfoMap;
 
 public class AnvilRenderer extends Renderer {
 

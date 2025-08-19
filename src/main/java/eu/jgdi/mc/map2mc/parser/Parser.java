@@ -1,15 +1,5 @@
 package eu.jgdi.mc.map2mc.parser;
 
-import java.awt.image.BufferedImage;
-import java.io.File;
-import java.io.IOException;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.stream.Collectors;
-
-import javax.imageio.ImageIO;
-
 import eu.jgdi.mc.map2mc.config.WorldConfig;
 import eu.jgdi.mc.map2mc.config.WorldRepository;
 import eu.jgdi.mc.map2mc.model.minecraft.coordinates.ChunkLocation;
@@ -19,6 +9,15 @@ import eu.jgdi.mc.map2mc.model.raw.WorldImageRaster;
 import eu.jgdi.mc.map2mc.model.raw.WorldSection;
 import eu.jgdi.mc.map2mc.renderer.IntermediateOutput;
 import eu.jgdi.mc.map2mc.utils.Logger;
+
+import javax.imageio.ImageIO;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 public class Parser {
 

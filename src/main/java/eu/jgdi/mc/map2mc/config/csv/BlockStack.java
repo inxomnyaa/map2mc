@@ -1,11 +1,11 @@
 package eu.jgdi.mc.map2mc.config.csv;
 
+import eu.jgdi.mc.map2mc.utils.Logger;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
-
-import eu.jgdi.mc.map2mc.utils.Logger;
 
 public class BlockStack {
 
